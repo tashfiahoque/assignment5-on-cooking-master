@@ -1,0 +1,133 @@
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #EDD263;
+}
+header{
+    margin: 30px 124px;
+    padding-bottom: 30px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 65%;
+}
+.nav{
+    width:70%;
+    float:right;
+}
+.nav ul{
+    list-style-type: none;
+    float:right;
+}
+.nav ul li{
+    float:left;
+    margin-left: 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #383838;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav ul li:last-child{
+    margin-right: 0px;
+}
+#search-area{
+    width: 570px;
+    height: 60px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+#search-field{
+    background: #F8F7F5;
+    width: 50%;
+    height: 70%;
+    border: none;
+}
+#search-button{
+    background: #3B2D64;
+    color: white;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    width: 14%;
+    height: 70%;
+    text-align: center;
+    margin-left: -4px;
+}
+input::placeholder{
+    color: #989898;
+    padding-left: 10px;
+}
+#search-results{
+    display: block;
+    margin: 30px 90px;
+}
+.meal-item{
+    border: 1px solid #dee2e6;
+    width : 20%;
+    height: 300px;
+    background: #F8F7F5;
+    border-radius: 10px;
+    float: left;
+    margin: 32px;
+}
+#item-image img{
+    width:100%;
+    height: 220px;
+}
+#item-title h3{
+    text-align: center;
+    color: #252525;
+    font-size: 20px;
+    font-weight: 500;
+}
+#no-results-found{
+    display: none;
+}
+#ingredients-container{
+    display: none;
+ 
+}
+.ingredients-wrapper{
+    margin: 0 auto;
+    width: 500px;
+    background: #F8F7F5;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.ingredients-wrapper img{
+    width: 100%;
+    height: 300px;
+}
+.ingredients-wrapper-content{
+    margin-left: 42px;
+    color: #252525;
+    font-weight: 700;
+}
+.ingredients-wrapper-content h2{
+    font-size: 36px;
+}
+.ingredients-wrapper-content h4{
+    font-size: 20px;
+}
+.ingredients-wrapper ul{
+    list-style: none;
+    padding-bottom: 30px;
+}
+.ingredients-list img{
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 20px;
+}
+.ingredients-list h5{
+   padding-top: 3px;
+    color: #6C6C6C;
+}
