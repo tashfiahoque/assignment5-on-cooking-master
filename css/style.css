@@ -1,11 +1,9 @@
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 body{
     margin: 0;
     padding: 0;
     background: #EDD263;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     margin: 30px 124px;
@@ -128,6 +126,18 @@ input::placeholder{
     margin-right: 20px;
 }
 .ingredients-list h5{
-   padding-top: 3px;
+    padding-top: 3px;
     color: #6C6C6C;
+}
+.no-results-found-text{
+    color:red;
+    text-align: center;
+}
+.go-back{
+    width: 111px;
+    height: 60px;
+    background: #3B2D64;
+    border-radius: 6px;
+    margin: 10px 163px;
+    color: white;
 }
