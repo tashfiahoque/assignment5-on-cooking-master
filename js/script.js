@@ -15,8 +15,12 @@ searchButton.addEventListener("click", (e) => {
     let searchField = document.getElementById("search-field").value.trim();
     if (!searchField) {
         alert("Please enter your required meal");
+    } else if (searchField.length == 1) {
+        fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${searchField}`)
+            .then(response => response.json())
+            .then(data => displaySearchResults(data))
     } else {
-        fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchField}`)
+        fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchField}`)
             .then(response => response.json())
             .then(data => displaySearchResults(data))
     }
